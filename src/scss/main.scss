@@ -1,0 +1,33 @@
+// @import 'components/code';
+// @import 'components/links';
+// @import 'layout/page';
+// @import 'layout/header';
+// @import 'layout/footer';
+// @import 'pages/index';
+
+@import "core/reset";
+@import "core/variables";
+@import "layout/header";
+@import "layout/hero";
+@import "layout/form";
+@import "layout/team";
+@import "layout/aboutus";
+@import "layout/strenghts-weaknesses";
+@import "layout/footer";
+
+
+:root {
+  --font-1: "Open Sans", sans-serif;
+  --font-2: "Rubik", sans-serif;
+  --dark-green: #099d8d;
+  --light-green: #14d9c4;
+  --white: #ffffff;
+  --black: #000000;
+  --dark-grey: #54585a;
+  --light-grey: #b8b8b9;
+  --grey-background: #f1f1f1;
+}
+
+* {
+  box-sizing: border-box;
+}

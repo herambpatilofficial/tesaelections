@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap”" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/be943aedd0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <title>Proyect 1 Team 8</title>
+</head>
+
+<body>
+  <!--header-->
+  <header class="header">
+    <h1 class="title"><a href="./index.html">Breaking code</a></h1>
+    <nav class="nav">
+      <ul class="ul-nav">
+        <li class="li-nav">
+          <a class="menu" href="./index.html#team">Equipo</a>
+        </li>
+        <li class="li-nav">
+          <a class="menu" href="./index.html#quienes-somos">Quiénes somos</a>
+        </li>
+        <li class="li-nav">
+          <a class="menu" href="./contact.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--contacts section-->
+  <iv>
+    <section class="hero">
+      <img class="background-img" src="./assets/images/breaking-code-black.jpg" alt="Breaking code logo"
+        title="Breaking Code logo">
+    </section>
+
+    <section class="form__team">
+      <h3 class="team__h3--form">Contacto</h3>
+      <p class="form__team--p">Si lo que estás buscando es la mejor receta para tu código, un código con el que
+        enganchar a tus contactos, escribe a las creadoras de Breaking Code a través del siguiente formulario:</p>
+      <p class="form__team--p">Todos los campos marcados con <span class="form__color">*</span> son obligatorios.
+      </p>
+
+    </section>
+    </section>
+
+
+    <form action="https://formspree.io/f/xknevlwl"
+    method="POST" method="post" class="form">
+
+      <div class="form__divName">
+      <label class="form__label" for="completeName">Nombre completo<span class="form__color">*</span></label>
+      <input placeholder="Nombre..." id="completeName" type="text" name="completeName" class="form__name" required />
+    </div>
+
+
+      <div class="form__email-phone">
+        <div class="email__box">
+      <label class="form__label" for="emailAddress">Email<span class="form__color">*</span></label>
+      <input placeholder="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress"
+        class="form__email" required />
+      </div>
+<div class="phone__box">
+      <label class="form__label" for="telephone">Teléfono</label>
+      <input placeholder="Ej: 123456789" type="tel" id="telephone" name="telephone" class="form__input form__phone" />
+    </div>
+    </div>
+
+    <div class="form__divTextarea">
+      <label class="form__label" for="comments">Mensaje<span class="form__color">*</span></label>
+      <textarea placeholder="¿Qué necesitas?" id="comments" name="comments" rows="8" cols="80" class="form__textarea"
+        required></textarea>
+    </div>
+
+    <div class="form__divSend">
+      <input type="submit" value="Enviar" class="form__send" />
+        </div>
+    </form>
+
+
+
+
+  </main>
+  <!--footer-->
+  <footer class="footer">
+    <p class="footer_copy">Breaking Code &copy; 2022</p>
+    <nav class="footer_menu">
+      <ul>
+        <li>
+          <a class="footer_links" href="./index.html#team" title="Sección Equipo"
+            >Equipo</a
+          >
+        </li>
+        <li>
+          <a
+            class="footer_links"
+            href="./index.html#quienes-somos"
+            title="Sección Quiénes somos"
+            >Quiénes somos</a
+          >
+        </li>
+        <li>
+          <a class="footer_links" href="./contact.html" title="Contacto"
+            >Contacto</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="footer-img">
+      <img
+        src="https://github.com/Adalab/pw-project-promo-x-module-1-team-profes/blob/main/logo-adalab.png?raw=true"
+        alt="logo"
+        class="footer_img"
+      />
+    </div>
+  </footer>
+
+  <!--outside main-->
+</body>
+
+</html>
