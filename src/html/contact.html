@@ -13,69 +13,177 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/be943aedd0.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./assets/css/main.css" />
-  <title>Proyect 1 Team 8</title>
+  <title>Tesa Elections</title>
 </head>
 
 <body>
   <!--header-->
-  <include src="./partials/header.html" title="header"></include>
-  <!--contacts section-->
-  <iv>
+  <header class="header">
+    <h1 class="title"><a href="./index.html">TESA Elections</a></h1>
+    <nav class="nav">
+      <ul class="ul-nav">
+        <li class="li-nav">
+          <a class="menu" href="./index.html#team">WHY US?</a>
+        </li>
+        <li class="li-nav">
+          <a class="menu" href="./index.html#quienes-somos">ABOUT US</a>
+        </li>
+        <li class="li-nav">
+          <a class="menu" href="./contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!--hero-->
     <section class="hero">
-      <img class="background-img" src="./assets/images/breaking-code-black.jpg" alt="Breaking code logo"
-        title="Breaking Code logo">
+      <img
+        class="background-img"
+        src="./assets/images/bg_image.jpg"
+        alt="bg_image"
+        title="bg_image"
+      />
+      <h2 class="lema">
+        "Selecting the right candidate isn't just about finding the perfect skills; it's about discovering the perfect fit for the soul of your team and the heart of your organization."
+      </h2>
     </section>
 
-    <section class="form__team">
-      <h3 class="team__h3--form">Contacto</h3>
-      <p class="form__team--p">Si lo que estás buscando es la mejor receta para tu código, un código con el que
-        enganchar a tus contactos, escribe a las creadoras de Breaking Code a través del siguiente formulario:</p>
-      <p class="form__team--p">Todos los campos marcados con <span class="form__color">*</span> son obligatorios.
-      </p>
-
-    </section>
-    </section>
-
-
-    <form action="https://formspree.io/f/xknevlwl"
-    method="POST" method="post" class="form">
-
-      <div class="form__divName">
-      <label class="form__label" for="completeName">Nombre completo<span class="form__color">*</span></label>
-      <input placeholder="Nombre..." id="completeName" type="text" name="completeName" class="form__name" required />
-    </div>
-
-
-      <div class="form__email-phone">
-        <div class="email__box">
-      <label class="form__label" for="emailAddress">Email<span class="form__color">*</span></label>
-      <input placeholder="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress"
-        class="form__email" required />
+    <!--team-->
+    <section class="team" id="team">
+      <div class="team_div">
+        <h3 class="team_h3">Why us?</h3>
+        <p class="team_p">What sets us apart is our shared passion for innovation and our deep-rooted commitment to the betterment of TESA. We understand the unique challenges and opportunities that students pursuing telecommunication engineering face, and we are eager to address these in creative ways.</p>
+        <p class="team_p">Our vision is to transform TESA into a dynamic hub where members can thrive academically, socially, and professionally. By choosing us, you're not just electing individuals but a dedicated team ready to work collaboratively and tirelessly on your behalf. Together, we will propel TESA to new heights, making it a place where every telecommunication engineering student can excel and find the support they need to succeed.</p>
       </div>
-<div class="phone__box">
-      <label class="form__label" for="telephone">Teléfono</label>
-      <input placeholder="Ej: 123456789" type="tel" id="telephone" name="telephone" class="form__input form__phone" />
-    </div>
-    </div>
 
-    <div class="form__divTextarea">
-      <label class="form__label" for="comments">Mensaje<span class="form__color">*</span></label>
-      <textarea placeholder="¿Qué necesitas?" id="comments" name="comments" rows="8" cols="80" class="form__textarea"
-        required></textarea>
-    </div>
+    </section>
+    <!--strenghts-->
+    <div class="rectangle"></div>
+    <section class="strenghts-weaknesses">
+      <article class="strenghts">
+        <h4 class="strenghts_h4">Strengths</h4>
+        <p class="strenghts_p">Experience: A proven track record in student leadership.<br>
 
-    <div class="form__divSend">
-      <input type="submit" value="Enviar" class="form__send" />
-        </div>
-    </form>
+          Diversity: Diverse backgrounds and ideas for creative problem-solving.<br>
+          
+          Commitment: Deep dedication to TESA's betterment, not just during elections.<br>
+          
+          Innovation: Ready to introduce fresh, industry-relevant initiatives.<br>
+          
+          Collaboration: A united, seamless team ready to work together.<br>
+          
+          Accessibility: Always available and approachable for all TESA members.<br>
+          
+          Long-term Vision: Planning for both short-term success and a strong future.<br>
+      </article>
 
+      <article class="strenghts">
+        <h4 class="strenghts_h4">Room for Betterment</h4>
+        <p class="strenghts_p">We are firm believers in open communication and constant improvement. Your ideas, expectations, and concerns are invaluable to us. We want to hear from you directly.
 
+Please feel free to reach out to us with your suggestions, thoughts, or any ideas you have for enhancing TESA. Your input will play a crucial role in shaping the future of our association. Together, we can make TESA.</p>
+      </article>
 
+    </section>
+
+    <!--who we are-->
+    <section class="quienes-somos" id="quienes-somos">
+      <section class="section-quienes">
+          <h3 class="title-quienes">About Us</h3>
+          <div class="div-quienes">
+              <article class="article-1">
+                  <div class="photo-container1">
+                      <img class="img-quienes" src="./assets/images/Deva.jpg" alt="Foto de María López">
+                  </div>
+                  <div class="text-container1">
+                      <h5 class="name-quienes">Devadripta Jadhav</h5>
+                      <p class="text-quienes">Candidate for General Secretary (GS)</p>
+                      <ul class="social-media-items">
+                        <li class="item"><a href="https://www.instagram.com/devadripta/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+
+                          <li> · </li>
+                          <li class="item"><a href="https://www.linkedin.com/in/devadripta/" target="_blank" title="Linkedin" <i class="fa-brands fa-linkedin-in"></i></i></a></li>
+                          <li> · </li>
+                        
+                          <li class="item"><a href="devadripta@gmail.com" target="_blank" title="Email" <i class="fa-solid fa-envelope"></i></a></li>
+                      </ul>
+                  </div>
+              </article>
+
+              <article class="article-2">
+                  <div class="photo-container2">
+                      <img class="img-quienes" src="./assets/images/Birle.jpg" alt="Foto de Mireia Maldonado">
+                  </div>
+                  <div class="text-container2">
+                      <h5 class="name-quienes">Prathmesh Birle</h5>
+                      <p class="text-quienes">Candidate for Joint General Secretary (JGS) </p>
+                      <ul class="social-media-items">
+                        <li class="item"><a href="https://www.instagram.com/prathmesh_birle/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+
+                          <li> · </li>
+                          <li class="item"><a href="https://www.linkedin.com/in/prathmesh-birle-45875522b/" target="_blank" title="Linkedin" <i class="fa-brands fa-linkedin-in"></i></i></a></li>
+                          <li> · </li>
+                         
+                          <li class="item"><a href="mailto:mirmalparra@gmail.com" target="_blank" title="Email" <i class="fa-solid fa-envelope"></i></a></li>
+                      </ul>
+                  </div>
+              </article>
+
+              <article class="article-3">
+                  <div class="photo-container3">
+                      <img class="img-quienes" src="./assets/images/Samiksha.jpg" alt="Foto de Laura Valdenebro">
+                  </div>
+                  <div class="text-container3">
+                      <h5 class="name-quienes">Samiksha Boduwar</h5>
+                      <p class="text-quienes">Candidate for Secretary</p>
+                      <ul class="social-media-items">
+                        <li class="item"><a href="https://www.instagram.com/samiksha_boduwar/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+
+                          <li> · </li>
+                          <li class="item"><a href="https://www.linkedin.com/in/samiksha-boduwar/" target="_blank" title="Linkedin" <i class="fa-brands fa-linkedin-in"></i></i></a></li>
+                          <li> · </li>
+                          <li class="item"><a href="samikshaboduwar@gmail.com" target="_blank" title="Email" <i class="fa-solid fa-envelope"></i></a></li>
+                      </ul>
+                  </div>
+              </article>
+
+              
+    <!--footer-->
+    <footer class="footer">
+      <p class="footer_copy">TESA Elections &copy; 2023</p>
+      <nav class="footer_menu">
+        <ul>
+          <li>
+            <a class="footer_links" href="./index.html#team" title="Sección Equipo"
+              >Why us?</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer_links"
+              href="./index.html#quienes-somos"
+              title="Sección Quiénes somos"
+              >About Us</a
+            >
+          </li>
+          <li>
+            <a class="footer_links" href="./contact.html" title="Contacto"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="footer-img">
+        <img
+          src="https://github.com/Adalab/pw-project-promo-x-module-1-team-profes/blob/main/logo-adalab.png?raw=true"
+          alt="logo"
+          class="footer_img"
+        />
+      </div>
+    </footer>
 
   </main>
-  <!--footer-->
-  <include src="./partials/footer.html" title=""></include>
-  <!--outside main-->
 </body>
 
 </html>
